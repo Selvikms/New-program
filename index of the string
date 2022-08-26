@@ -1,0 +1,17 @@
+//to find the index of the string
+
+
+#include<stdio.h>
+int main()
+{
+    char str[]="Muthuselvi";
+    printf("%c",str[0]);
+    printf("%c",str[1]);
+    printf("%c",str[2]);
+    printf("%c",str[3]);
+    printf("%c",str[4]);
+    return 0;
+}
+
+output:
+Muthu
