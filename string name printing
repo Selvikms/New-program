@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+    {
+        char arr[15];
+        printf("Enter the name:");
+        fgets(arr,sizeof(arr),stdin);
+        printf("%s",arr);
+        return 0;
+    }
+    
+    output:
+    
+    Enter the name:Muthu selvi
+Muthu selvi
+
+=======================================================
+#include<stdio.h>
+int main()
+    {
+        char arr[15];
+        printf("Enter the name:");
+        scanf("%s",arr);
+        printf("%s",arr);
+        return 0;
+    }
+    
+    output:
+    
+    Enter the name:Muthu selvi
+Muthu
